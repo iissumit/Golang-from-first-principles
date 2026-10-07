@@ -99,4 +99,33 @@
 // 	fmt.Println(y)
 // }
 
-// Sero balues 
+// Zero values 
+
+package main
+
+import "fmt"
+
+func main(){
+
+	// In many languages, variables that are not assigned with something or havent been given a meaningful value yet
+	// Go takes a different appproach
+	// Every declared variable gets a default value based on its type
+	// called zero values
+
+	var age int
+	fmt.Println(age)
+	var age2 float64
+	fmt.Println(age2)
+	var age3 bool
+	fmt.Println(age3)
+	// var name string
+	// fmt.Println(name) ""
+	// empty string so it would look blank
+
+	// Imagine you have balance variable var balance int
+	// go guarantees balance has well defined value immediately 
+
+	// No uninitialised integer
+	// best to work with structs, pointers, slices, maps, configuration, HTTP REquest data, data base models, concurrent programs
+	
+}
